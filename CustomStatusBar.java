@@ -142,6 +142,4 @@ public class CustomView extends View {
     public MODE getStatus() {
         return status;
     }
-
-    ;
 }
