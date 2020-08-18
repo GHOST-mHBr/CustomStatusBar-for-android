@@ -1,9 +1,18 @@
-package com.GHOSTmHBr.customstatusbar;
+package com.GHOSTmHBr.CustomStatusBar;
 
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Path;
+import android.graphics.RectF;
+import android.support.annotation.Nullable;
+import android.util.AttributeSet;
+import android.view.View;
 
+import com.example.animalsvoice.R;
 
-
-public class CustomStatusBar extends View {
+public class CustomView extends View {
 
 
     enum MODE {PERCENT_MODE, NUMBER_MODE}
@@ -130,7 +139,9 @@ public class CustomStatusBar extends View {
         status = mode;
     }
 
-    public MODE getMode() {
+    public MODE getStatus() {
         return status;
     }
+
+    ;
 }
