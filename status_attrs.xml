@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="setMaxNumber" format="integer"/>
+        <attr name="setBackColor" format="color"/>
+        <attr name="setFrontColor" format="color"/>
+        <attr name="setTextColor" format="color"/>
+    </declare-styleable>
+</resources>
